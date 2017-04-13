@@ -18,5 +18,6 @@ spark.sql("select vhash(1, false, 'foo')").show()
 * implement codegen over VHashExpr
 * implement implicits for vhash function to be used as a literal in scala vs. just a sql binding
 * implement better coverage of underlying spark data types
+* implement automation for releases, ci, etc.
 * provide unit tests using random data generation for different combinatorials of data types, etc.
 * provide integration tests which physically communicate with different vertica backends to validate vhash integration
